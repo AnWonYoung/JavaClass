@@ -8,5 +8,11 @@ public class VariableExample {
 		int value = 10; // 변수 초기화 
 		int result = value + 10;
 		System.out.println(result);
+		
+		byte byteValue = 10;
+		float floatValue = 2.5f;
+		double doubleValue = 2.5;
+		
+		byte result2 = (byte)(byteValue + byteValue);
 	}
 }

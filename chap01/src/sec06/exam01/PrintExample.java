@@ -8,6 +8,11 @@ public class PrintExample {
 		System.out.print("하하\n"); // 대행
 		
 		//TODO System.out.printf(); 후에 설명
+		//%s = 문자열 
+		//%d = 정수형 
+		//%c = char형
+		//%f = 실수형
+		
 	}
 
 }
