@@ -5,9 +5,9 @@ public class OperatorExam2 {
 		int n1 = 10;
 		//증감연산자
 		System.out.println("n1: " + n1);
-		n1++;
+		n1++; // 단순한 더하기 X
 		System.out.println("n1: " + n1);
-		++n1;
+		++n1; // 결과는 똑같음 
 		System.out.println("n1: "+ n1);
 		--n1;
 		System.out.println("n1: "+ n1);
@@ -30,7 +30,7 @@ public class OperatorExam2 {
 		// 논리 부정 연산자(!)
 		boolean result3 = 10 > 2;
 		System.out.println("result: " + result3);
-		System.out.println("result: " + !result3); //!로 값을 바꾸기
+		System.out.println("result: " + !result3); //!로 boolean 값을 바꾸기
 		
 	}
 

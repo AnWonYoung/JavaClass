@@ -16,11 +16,6 @@ public class AssignmentOperatorExam {
 		n3 -= 4;
 		System.out.println("n3: " + n3);
 		
-		
-		
-		
-		
-		
 //		
 //		System.out.println("n1: " + n1);
 //		

@@ -29,7 +29,7 @@ public class OperatorExam {
 		System.out.println("even: " + even);
 		
 		System.out.println("--------------------------------");
-		int n3 = 1; // 단항연산자
+		int n3 = 1; // 단항연산자 int n3 = -1 * 1
 		System.out.println("n3: " + -n3);
 	}	
 

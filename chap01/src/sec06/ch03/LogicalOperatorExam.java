@@ -8,6 +8,7 @@ public class LogicalOperatorExam {
 		System.out.println("res1: " + res1);
 		boolean res2 = true || false || false;
 		System.out.println("res2: "+ res2);
+		
 
 	}
 
