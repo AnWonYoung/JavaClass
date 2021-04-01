@@ -2,7 +2,7 @@ package sec06.ch04;
 
 public class SwitchExam {
 	public static void main(String[] args) {
-		int val = 2;
+		int val = 2; // double 타입은 불가능
 		switch(val) {
 		case 1: // 들어온 값이 1인 경우
 			System.out.println("값은 1이다.");
