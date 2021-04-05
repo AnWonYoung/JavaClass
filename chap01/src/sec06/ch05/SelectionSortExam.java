@@ -1,12 +1,12 @@
 package sec06.ch05;
 
 import java.util.Arrays;
-
+// 선택정렬
 public class SelectionSortExam {
 	public static void main(String[] args) {
 		int [] arr = {8,7,3,1,6,0};
 		
-		for(int i=0; i<arr.length-1; i++) {
+		for(int i=0; i<arr.length-1; i++) { //-1 이유 = 마지막은 자연스럽게 정렬됨
 			int minIdx = i;
 			for(int z=i+1; z<arr.length; z++) {
 				if(arr[minIdx] > arr[z]) {
