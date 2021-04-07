@@ -28,7 +28,7 @@ public class MethodMission10 {
 		
 		System.out.println("-----------printMenu2-----------");
 		printMenu2(menuNumArr, menuPriceArr);
-		System.out.println("------------drinkArr-----------");
+		System.out.println("-----------drinkArr-----------");
 		printMenu3(drinkArr);
 
 		
