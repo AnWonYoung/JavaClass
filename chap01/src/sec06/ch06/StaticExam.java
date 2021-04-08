@@ -21,5 +21,5 @@ public class StaticExam {
 }
 
 class Toy {
-	static String name; // 객체와 전혀 상관 없음 즉, 메모리가 바로 저장된다는 것(객체화의 필요성이 X)
+	static String name; // 객체와 전혀 상관 없음 즉, 메모리가 바로 저장된다는 것(객체 필요성이 X)
 }

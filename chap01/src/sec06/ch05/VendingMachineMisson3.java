@@ -42,21 +42,7 @@ public class VendingMachineMisson3 {
 		scan.close();
 		System.out.printf("남은 금액 : %d", money);
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	
 		
 		
 		
