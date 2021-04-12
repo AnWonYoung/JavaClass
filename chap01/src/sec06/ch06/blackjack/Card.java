@@ -21,4 +21,6 @@ public class Card extends Object{
 	public String toString() {
 		return pattern + "\t(" + symbol + ")";
 	}
+
 }
+
