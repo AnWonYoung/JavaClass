@@ -19,8 +19,10 @@ public class Card extends Object{
 	
 	@Override
 	public String toString() {
-		return pattern + "\t(" + symbol + ")";
+		return pattern + " (" + symbol + ")";
 	}
+
+
 
 }
 

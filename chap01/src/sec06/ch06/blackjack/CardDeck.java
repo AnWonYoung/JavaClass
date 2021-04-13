@@ -10,8 +10,8 @@ public class CardDeck {
 		int deck = 0;
 		for (int i = 0; i < patternArr.length; i++) {
 			for (int z = 0; z < symbolArr.length; z++) {
-				CARD_ARR[deck++] = new Card(patternArr[i], symbolArr[z]);
-				System.out.println(CARD_ARR[deck - 1]);
+				CARD_ARR[deck] = new Card(patternArr[i], symbolArr[z]);
+				System.out.println(CARD_ARR[deck++]);
 			}
 		}
 	}
