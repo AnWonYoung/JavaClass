@@ -17,12 +17,12 @@ public class CardDeck {
 	}
 
 	public Card getOneCard() {
-		int rIdx = (int) (Math.random() * CARD_ARR.length);
-		Card c = CARD_ARR[rIdx];
+		int idx = (int) (Math.random() * CARD_ARR.length);
+		Card c = CARD_ARR[idx];
 		if (c == null) {			// 중복을 없애주는
 			return getOneCard();
 		} else {
-			CARD_ARR[rIdx] = null; // 카드를 뽑고 없는 카드
+			CARD_ARR[idx] = null; // 카드를 뽑고 없는 카드
 			return c;
 		}
 
@@ -31,7 +31,7 @@ public class CardDeck {
 	public void printAll() {
 		CardDeck cd = new CardDeck();
 		for(int i=0; i<52; i++) {
-			Card card1 = cd.getOneCard(); // 두 번 생성하면 53번이 되는 것 주의하기
+			Card card1 = cd.getOneCard();
 			System.out.println(card1);
 		}
 	}

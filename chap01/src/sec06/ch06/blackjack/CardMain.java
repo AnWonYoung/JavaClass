@@ -9,7 +9,7 @@ public class CardMain {
 		CardDeck cd = new CardDeck();
 		
 		Card c2 = new Card("heart", "2");
-		System.out.println(c2.toString());
+		System.out.println(c2);
 //		println(c2);
 		
 		Card c3 = new Card("club", "J");
